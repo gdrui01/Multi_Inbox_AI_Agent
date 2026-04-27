@@ -1,0 +1,15 @@
+Vendor: Bohemia Logistics s.r.o.
+Vendor ID: VEND-CZ-3003
+Document Type: Order Confirmation
+Confirmation Number: OC-CZ-2026-030
+PO Number: PO-3003
+Date: 2026-04-14
+Currency: CZK
+Country: CZ
+
+Line Items:
+- SKU: SHIP-900 | Description: Cross-border pallet delivery | Quantity: 4 | Unit Price: 1800.00 | Amount: 7200.00
+
+Subtotal: 7200.00
+Tax: 1512.00
+Total: 8712.00

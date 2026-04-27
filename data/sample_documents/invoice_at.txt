@@ -1,0 +1,16 @@
+Vendor: Alpine Fresh GmbH
+Vendor ID: VEND-AT-1001
+Document Type: Invoice
+Invoice Number: INV-AT-2026-001
+PO Number: PO-1001
+Date: 2026-04-10
+Currency: EUR
+Country: AT
+
+Line Items:
+- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 120 | Unit Price: 1.25 | Amount: 150.00
+- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 80 | Unit Price: 2.50 | Amount: 200.00
+
+Subtotal: 350.00
+Tax: 70.00
+Total: 420.00

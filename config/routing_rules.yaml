@@ -1,0 +1,19 @@
+default_team: AP Shared Services
+country_routes:
+  AT:
+    invoice: AP Austria
+    credit_note: AP Austria
+    order_confirmation: Procurement Austria
+  CH:
+    invoice: AP Switzerland
+    credit_note: AP Switzerland
+    order_confirmation: Procurement Switzerland
+  CZ:
+    invoice: AP Czech Republic
+    credit_note: AP Czech Republic
+    order_confirmation: Procurement Czech Republic
+review_reasons_force_review:
+  - missing_required_fields
+  - po_not_found
+  - vendor_mismatch
+  - amount_mismatch

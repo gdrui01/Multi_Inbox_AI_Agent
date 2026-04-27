@@ -1,0 +1,4 @@
+po_number,vendor_id,vendor_name,country_code,business_unit,cost_center,currency,expected_total,status
+PO-1001,VEND-AT-1001,Alpine Fresh GmbH,AT,Retail Austria,CC-AT-01,EUR,420.00,Open
+PO-2002,VEND-CH-2002,Swiss Packaging AG,CH,Retail Switzerland,CC-CH-02,CHF,161.55,Open
+PO-3003,VEND-CZ-3003,Bohemia Logistics s.r.o.,CZ,Retail Czech Republic,CC-CZ-03,CZK,8712.00,Open

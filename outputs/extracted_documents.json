@@ -1,0 +1,437 @@
+[
+  {
+    "document": {
+      "document_id": "ORD-OC-CZ-2026-030",
+      "source_name": "order_confirmation_cz.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\outputs\\uploads\\order_confirmation_cz.txt",
+      "document_type": "order_confirmation",
+      "classification_confidence": 0.99,
+      "extraction_confidence": 1.0,
+      "overall_confidence": 0.99,
+      "document_number": "OC-CZ-2026-030",
+      "reference_number": null,
+      "po_number": "PO-3003",
+      "vendor_name": "Bohemia Logistics s.r.o.",
+      "vendor_id": "VEND-CZ-3003",
+      "document_date": "2026-04-14",
+      "currency": "CZK",
+      "country_code": "CZ",
+      "subtotal": 7200.0,
+      "tax_amount": 1512.0,
+      "total_amount": 8712.0,
+      "mailbox": null,
+      "sender": null,
+      "line_items": [
+        {
+          "sku": "SHIP-900",
+          "description": "Cross-border pallet delivery",
+          "quantity": 4.0,
+          "unit_price": 1800.0,
+          "amount": 7200.0
+        }
+      ],
+      "raw_text": "Vendor: Bohemia Logistics s.r.o.\nVendor ID: VEND-CZ-3003\nDocument Type: Order Confirmation\nConfirmation Number: OC-CZ-2026-030\nPO Number: PO-3003\nDate: 2026-04-14\nCurrency: CZK\nCountry: CZ\n\nLine Items:\n- SKU: SHIP-900 | Description: Cross-border pallet delivery | Quantity: 4 | Unit Price: 1800.00 | Amount: 7200.00\n\nSubtotal: 7200.00\nTax: 1512.00\nTotal: 8712.00\n",
+      "missing_fields": []
+    },
+    "erp_result": {
+      "po_found": true,
+      "vendor_found": true,
+      "vendor_matches_po": true,
+      "currency_matches_po": true,
+      "amount_within_tolerance": true,
+      "business_unit": "Retail Czech Republic",
+      "cost_center": "CC-CZ-03",
+      "owner_team": "Procurement Czech Republic",
+      "po_expected_total": 8712.0,
+      "notes": []
+    },
+    "decision": {
+      "decision": "auto_route",
+      "target_team": "Procurement Czech Republic",
+      "reason": "Matched routing rules and confidence thresholds.",
+      "overall_confidence": 0.99,
+      "review_reasons": []
+    }
+  },
+  {
+    "document": {
+      "document_id": "INV-INV-AT-2026-001",
+      "source_name": "invoice_at.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\outputs\\uploads\\invoice_at.txt",
+      "document_type": "invoice",
+      "classification_confidence": 0.99,
+      "extraction_confidence": 1.0,
+      "overall_confidence": 0.99,
+      "document_number": "INV-AT-2026-001",
+      "reference_number": null,
+      "po_number": "PO-1001",
+      "vendor_name": "Alpine Fresh GmbH",
+      "vendor_id": "VEND-AT-1001",
+      "document_date": "2026-04-10",
+      "currency": "EUR",
+      "country_code": "AT",
+      "subtotal": 350.0,
+      "tax_amount": 70.0,
+      "total_amount": 420.0,
+      "mailbox": null,
+      "sender": null,
+      "line_items": [
+        {
+          "sku": "MILK-001",
+          "description": "Organic Milk 1L",
+          "quantity": 120.0,
+          "unit_price": 1.25,
+          "amount": 150.0
+        },
+        {
+          "sku": "YOG-004",
+          "description": "Greek Yogurt 500g",
+          "quantity": 80.0,
+          "unit_price": 2.5,
+          "amount": 200.0
+        }
+      ],
+      "raw_text": "Vendor: Alpine Fresh GmbH\nVendor ID: VEND-AT-1001\nDocument Type: Invoice\nInvoice Number: INV-AT-2026-001\nPO Number: PO-1001\nDate: 2026-04-10\nCurrency: EUR\nCountry: AT\n\nLine Items:\n- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 120 | Unit Price: 1.25 | Amount: 150.00\n- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 80 | Unit Price: 2.50 | Amount: 200.00\n\nSubtotal: 350.00\nTax: 70.00\nTotal: 420.00\n",
+      "missing_fields": []
+    },
+    "erp_result": {
+      "po_found": true,
+      "vendor_found": true,
+      "vendor_matches_po": true,
+      "currency_matches_po": true,
+      "amount_within_tolerance": true,
+      "business_unit": "Retail Austria",
+      "cost_center": "CC-AT-01",
+      "owner_team": "AP Austria",
+      "po_expected_total": 420.0,
+      "notes": []
+    },
+    "decision": {
+      "decision": "auto_route",
+      "target_team": "AP Austria",
+      "reason": "Matched routing rules and confidence thresholds.",
+      "overall_confidence": 0.99,
+      "review_reasons": []
+    }
+  },
+  {
+    "document": {
+      "document_id": "INV-INV-AT-2026-099",
+      "source_name": "invoice_review_missing_po.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\outputs\\uploads\\invoice_review_missing_po.txt",
+      "document_type": "invoice",
+      "classification_confidence": 0.99,
+      "extraction_confidence": 0.86,
+      "overall_confidence": 0.93,
+      "document_number": "INV-AT-2026-099",
+      "reference_number": null,
+      "po_number": null,
+      "vendor_name": "Alpine Fresh GmbH",
+      "vendor_id": "VEND-AT-1001",
+      "document_date": "2026-04-18",
+      "currency": "EUR",
+      "country_code": "AT",
+      "subtotal": 100.0,
+      "tax_amount": 20.0,
+      "total_amount": 120.0,
+      "mailbox": null,
+      "sender": null,
+      "line_items": [
+        {
+          "sku": "MILK-001",
+          "description": "Organic Milk 1L",
+          "quantity": 30.0,
+          "unit_price": 1.25,
+          "amount": 37.5
+        },
+        {
+          "sku": "YOG-004",
+          "description": "Greek Yogurt 500g",
+          "quantity": 25.0,
+          "unit_price": 2.5,
+          "amount": 62.5
+        }
+      ],
+      "raw_text": "Vendor: Alpine Fresh GmbH\nVendor ID: VEND-AT-1001\nDocument Type: Invoice\nInvoice Number: INV-AT-2026-099\nDate: 2026-04-18\nCurrency: EUR\nCountry: AT\n\nLine Items:\n- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 30 | Unit Price: 1.25 | Amount: 37.50\n- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 25 | Unit Price: 2.50 | Amount: 62.50\n\nSubtotal: 100.00\nTax: 20.00\nTotal: 120.00\n",
+      "missing_fields": [
+        "po_number"
+      ]
+    },
+    "erp_result": {
+      "po_found": false,
+      "vendor_found": true,
+      "vendor_matches_po": false,
+      "currency_matches_po": false,
+      "amount_within_tolerance": false,
+      "business_unit": null,
+      "cost_center": null,
+      "owner_team": null,
+      "po_expected_total": null,
+      "notes": [
+        "po_not_found"
+      ]
+    },
+    "decision": {
+      "decision": "human_review",
+      "target_team": "AP Austria",
+      "reason": "missing_required_fields, po_not_found",
+      "overall_confidence": 0.93,
+      "review_reasons": [
+        "missing_required_fields",
+        "po_not_found"
+      ]
+    }
+  },
+  {
+    "document": {
+      "document_id": "INV-INV-AT-2026-099",
+      "source_name": "invoice_review_missing_po.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\outputs\\uploads\\invoice_review_missing_po.txt",
+      "document_type": "invoice",
+      "classification_confidence": 0.99,
+      "extraction_confidence": 0.86,
+      "overall_confidence": 0.93,
+      "document_number": "INV-AT-2026-099",
+      "reference_number": null,
+      "po_number": null,
+      "vendor_name": "Alpine Fresh GmbH",
+      "vendor_id": "VEND-AT-1001",
+      "document_date": "2026-04-18",
+      "currency": "EUR",
+      "country_code": "AT",
+      "subtotal": 100.0,
+      "tax_amount": 20.0,
+      "total_amount": 120.0,
+      "mailbox": null,
+      "sender": null,
+      "line_items": [
+        {
+          "sku": "MILK-001",
+          "description": "Organic Milk 1L",
+          "quantity": 30.0,
+          "unit_price": 1.25,
+          "amount": 37.5
+        },
+        {
+          "sku": "YOG-004",
+          "description": "Greek Yogurt 500g",
+          "quantity": 25.0,
+          "unit_price": 2.5,
+          "amount": 62.5
+        }
+      ],
+      "raw_text": "Vendor: Alpine Fresh GmbH\nVendor ID: VEND-AT-1001\nDocument Type: Invoice\nInvoice Number: INV-AT-2026-099\nDate: 2026-04-18\nCurrency: EUR\nCountry: AT\n\nLine Items:\n- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 30 | Unit Price: 1.25 | Amount: 37.50\n- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 25 | Unit Price: 2.50 | Amount: 62.50\n\nSubtotal: 100.00\nTax: 20.00\nTotal: 120.00\n",
+      "missing_fields": [
+        "po_number"
+      ]
+    },
+    "erp_result": {
+      "po_found": false,
+      "vendor_found": true,
+      "vendor_matches_po": false,
+      "currency_matches_po": false,
+      "amount_within_tolerance": false,
+      "business_unit": null,
+      "cost_center": null,
+      "owner_team": null,
+      "po_expected_total": null,
+      "notes": [
+        "po_not_found"
+      ]
+    },
+    "decision": {
+      "decision": "human_review",
+      "target_team": "AP Austria",
+      "reason": "missing_required_fields, po_not_found",
+      "overall_confidence": 0.93,
+      "review_reasons": [
+        "missing_required_fields",
+        "po_not_found"
+      ]
+    }
+  },
+  {
+    "document": {
+      "document_id": "CRE-CN-CH-2026-017",
+      "source_name": "credit_note_ch.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\data\\sample_documents\\credit_note_ch.txt",
+      "document_type": "credit_note",
+      "classification_confidence": 0.95,
+      "extraction_confidence": 1.0,
+      "overall_confidence": 0.97,
+      "document_number": "CN-CH-2026-017",
+      "reference_number": "INV-CH-2026-102",
+      "po_number": "PO-2002",
+      "vendor_name": "Swiss Packaging AG",
+      "vendor_id": "VEND-CH-2002",
+      "document_date": "2026-04-12",
+      "currency": "CHF",
+      "country_code": "CH",
+      "subtotal": -150.0,
+      "tax_amount": -11.55,
+      "total_amount": -161.55,
+      "mailbox": "ap-switzerland@retailco.example",
+      "sender": "finance@swisspackaging.example",
+      "line_items": [
+        {
+          "sku": "PKG-778",
+          "description": "Recycled cartons",
+          "quantity": 50.0,
+          "unit_price": -3.0,
+          "amount": -150.0
+        }
+      ],
+      "raw_text": "Vendor: Swiss Packaging AG\nVendor ID: VEND-CH-2002\nDocument Type: Credit Note\nCredit Note Number: CN-CH-2026-017\nOriginal Invoice: INV-CH-2026-102\nPO Number: PO-2002\nDate: 2026-04-12\nCurrency: CHF\nCountry: CH\n\nLine Items:\n- SKU: PKG-778 | Description: Recycled cartons | Quantity: 50 | Unit Price: -3.00 | Amount: -150.00\n\nSubtotal: -150.00\nTax: -11.55\nTotal: -161.55\n",
+      "missing_fields": []
+    },
+    "erp_result": {
+      "po_found": true,
+      "vendor_found": true,
+      "vendor_matches_po": true,
+      "currency_matches_po": true,
+      "amount_within_tolerance": true,
+      "business_unit": "Retail Switzerland",
+      "cost_center": "CC-CH-02",
+      "owner_team": "AP Switzerland",
+      "po_expected_total": 161.55,
+      "notes": []
+    },
+    "decision": {
+      "decision": "auto_route",
+      "target_team": "AP Switzerland",
+      "reason": "Matched routing rules and confidence thresholds.",
+      "overall_confidence": 0.97,
+      "review_reasons": []
+    }
+  },
+  {
+    "document": {
+      "document_id": "INV-INV-AT-2026-001",
+      "source_name": "invoice_at.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\data\\sample_documents\\invoice_at.txt",
+      "document_type": "invoice",
+      "classification_confidence": 0.82,
+      "extraction_confidence": 1.0,
+      "overall_confidence": 0.91,
+      "document_number": "INV-AT-2026-001",
+      "reference_number": null,
+      "po_number": "PO-1001",
+      "vendor_name": "Alpine Fresh GmbH",
+      "vendor_id": "VEND-AT-1001",
+      "document_date": "2026-04-10",
+      "currency": "EUR",
+      "country_code": "AT",
+      "subtotal": 350.0,
+      "tax_amount": 70.0,
+      "total_amount": 420.0,
+      "mailbox": "ap-austria@retailco.example",
+      "sender": "billing@alpinefresh.example",
+      "line_items": [
+        {
+          "sku": "MILK-001",
+          "description": "Organic Milk 1L",
+          "quantity": 120.0,
+          "unit_price": 1.25,
+          "amount": 150.0
+        },
+        {
+          "sku": "YOG-004",
+          "description": "Greek Yogurt 500g",
+          "quantity": 80.0,
+          "unit_price": 2.5,
+          "amount": 200.0
+        }
+      ],
+      "raw_text": "Vendor: Alpine Fresh GmbH\nVendor ID: VEND-AT-1001\nDocument Type: Invoice\nInvoice Number: INV-AT-2026-001\nPO Number: PO-1001\nDate: 2026-04-10\nCurrency: EUR\nCountry: AT\n\nLine Items:\n- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 120 | Unit Price: 1.25 | Amount: 150.00\n- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 80 | Unit Price: 2.50 | Amount: 200.00\n\nSubtotal: 350.00\nTax: 70.00\nTotal: 420.00\n",
+      "missing_fields": []
+    },
+    "erp_result": {
+      "po_found": true,
+      "vendor_found": true,
+      "vendor_matches_po": true,
+      "currency_matches_po": true,
+      "amount_within_tolerance": true,
+      "business_unit": "Retail Austria",
+      "cost_center": "CC-AT-01",
+      "owner_team": "AP Austria",
+      "po_expected_total": 420.0,
+      "notes": []
+    },
+    "decision": {
+      "decision": "auto_route",
+      "target_team": "AP Austria",
+      "reason": "Matched routing rules and confidence thresholds.",
+      "overall_confidence": 0.91,
+      "review_reasons": []
+    }
+  },
+  {
+    "document": {
+      "document_id": "INV-INV-AT-2026-099",
+      "source_name": "invoice_review_missing_po.txt",
+      "source_path": "C:\\Users\\User\\Desktop\\Desktop\\Internships\\D-ONE\\Multi_Inbox_AI_Agent\\data\\sample_documents\\invoice_review_missing_po.txt",
+      "document_type": "invoice",
+      "classification_confidence": 0.82,
+      "extraction_confidence": 0.86,
+      "overall_confidence": 0.84,
+      "document_number": "INV-AT-2026-099",
+      "reference_number": null,
+      "po_number": null,
+      "vendor_name": "Alpine Fresh GmbH",
+      "vendor_id": "VEND-AT-1001",
+      "document_date": "2026-04-18",
+      "currency": "EUR",
+      "country_code": "AT",
+      "subtotal": 100.0,
+      "tax_amount": 20.0,
+      "total_amount": 120.0,
+      "mailbox": "ap-austria@retailco.example",
+      "sender": "billing@alpinefresh.example",
+      "line_items": [
+        {
+          "sku": "MILK-001",
+          "description": "Organic Milk 1L",
+          "quantity": 30.0,
+          "unit_price": 1.25,
+          "amount": 37.5
+        },
+        {
+          "sku": "YOG-004",
+          "description": "Greek Yogurt 500g",
+          "quantity": 25.0,
+          "unit_price": 2.5,
+          "amount": 62.5
+        }
+      ],
+      "raw_text": "Vendor: Alpine Fresh GmbH\nVendor ID: VEND-AT-1001\nDocument Type: Invoice\nInvoice Number: INV-AT-2026-099\nDate: 2026-04-18\nCurrency: EUR\nCountry: AT\n\nLine Items:\n- SKU: MILK-001 | Description: Organic Milk 1L | Quantity: 30 | Unit Price: 1.25 | Amount: 37.50\n- SKU: YOG-004 | Description: Greek Yogurt 500g | Quantity: 25 | Unit Price: 2.50 | Amount: 62.50\n\nSubtotal: 100.00\nTax: 20.00\nTotal: 120.00\n",
+      "missing_fields": [
+        "po_number"
+      ]
+    },
+    "erp_result": {
+      "po_found": false,
+      "vendor_found": true,
+      "vendor_matches_po": false,
+      "currency_matches_po": false,
+      "amount_within_tolerance": false,
+      "business_unit": null,
+      "cost_center": null,
+      "owner_team": null,
+      "po_expected_total": null,
+      "notes": [
+        "po_not_found"
+      ]
+    },
+    "decision": {
+      "decision": "human_review",
+      "target_team": "AP Austria",
+      "reason": "low_overall_confidence, missing_required_fields, po_not_found",
+      "overall_confidence": 0.84,
+      "review_reasons": [
+        "low_overall_confidence",
+        "missing_required_fields",
+        "po_not_found"
+      ]
+    }
+  }
+]

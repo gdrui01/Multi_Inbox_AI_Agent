@@ -1,0 +1,34 @@
+[
+  {
+    "email_id": "MAIL-001",
+    "mailbox": "ap-austria@retailco.example",
+    "subject": "Invoice INV-AT-2026-001",
+    "sender": "billing@alpinefresh.example",
+    "country": "AT",
+    "attachment": "invoice_at.txt"
+  },
+  {
+    "email_id": "MAIL-002",
+    "mailbox": "ap-switzerland@retailco.example",
+    "subject": "Credit note CN-CH-2026-017",
+    "sender": "finance@swisspackaging.example",
+    "country": "CH",
+    "attachment": "credit_note_ch.txt"
+  },
+  {
+    "email_id": "MAIL-003",
+    "mailbox": "procurement-cz@retailco.example",
+    "subject": "Order confirmation OC-CZ-2026-030",
+    "sender": "orders@bohemialogistics.example",
+    "country": "CZ",
+    "attachment": "order_confirmation_cz.txt"
+  },
+  {
+    "email_id": "MAIL-004",
+    "mailbox": "ap-austria@retailco.example",
+    "subject": "Invoice INV-AT-2026-099 - missing PO",
+    "sender": "billing@alpinefresh.example",
+    "country": "AT",
+    "attachment": "invoice_review_missing_po.txt"
+  }
+]

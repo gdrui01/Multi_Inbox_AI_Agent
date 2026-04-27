@@ -1,0 +1,9 @@
+classification_auto: 0.8
+extraction_auto: 0.8
+overall_auto: 0.85
+amount_tolerance_pct: 0.02
+missing_fields_review:
+  - document_number
+  - po_number
+  - vendor_name
+  - total_amount

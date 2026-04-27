@@ -1,0 +1,4 @@
+vendor_id,vendor_name,country_code,preferred_mailbox,risk_level
+VEND-AT-1001,Alpine Fresh GmbH,AT,ap-austria@retailco.example,low
+VEND-CH-2002,Swiss Packaging AG,CH,ap-switzerland@retailco.example,medium
+VEND-CZ-3003,Bohemia Logistics s.r.o.,CZ,procurement-cz@retailco.example,low

@@ -1,0 +1,8 @@
+timestamp,document_id,source_name,document_type,decision,target_team,reason,overall_confidence,po_number,vendor_name,total_amount
+2026-04-25T17:50:31.791511,ORD-OC-CZ-2026-030,order_confirmation_cz.txt,order_confirmation,auto_route,Procurement Czech Republic,Matched routing rules and confidence thresholds.,0.99,PO-3003,Bohemia Logistics s.r.o.,8712.0
+2026-04-25T17:51:28.027210,INV-INV-AT-2026-001,invoice_at.txt,invoice,auto_route,AP Austria,Matched routing rules and confidence thresholds.,0.99,PO-1001,Alpine Fresh GmbH,420.0
+2026-04-25T17:51:41.662590,INV-INV-AT-2026-099,invoice_review_missing_po.txt,invoice,human_review,AP Austria,"missing_required_fields, po_not_found",0.93,,Alpine Fresh GmbH,120.0
+2026-04-25T17:51:45.129876,INV-INV-AT-2026-099,invoice_review_missing_po.txt,invoice,human_review,AP Austria,"missing_required_fields, po_not_found",0.93,,Alpine Fresh GmbH,120.0
+2026-04-25T18:07:41.269747,CRE-CN-CH-2026-017,credit_note_ch.txt,credit_note,auto_route,AP Switzerland,Matched routing rules and confidence thresholds.,0.97,PO-2002,Swiss Packaging AG,-161.55
+2026-04-27T09:00:53.448532,INV-INV-AT-2026-001,invoice_at.txt,invoice,auto_route,AP Austria,Matched routing rules and confidence thresholds.,0.91,PO-1001,Alpine Fresh GmbH,420.0
+2026-04-27T09:36:58.750553,INV-INV-AT-2026-099,invoice_review_missing_po.txt,invoice,human_review,AP Austria,"low_overall_confidence, missing_required_fields, po_not_found",0.84,,Alpine Fresh GmbH,120.0

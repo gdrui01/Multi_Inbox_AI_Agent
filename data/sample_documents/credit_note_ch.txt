@@ -1,0 +1,16 @@
+Vendor: Swiss Packaging AG
+Vendor ID: VEND-CH-2002
+Document Type: Credit Note
+Credit Note Number: CN-CH-2026-017
+Original Invoice: INV-CH-2026-102
+PO Number: PO-2002
+Date: 2026-04-12
+Currency: CHF
+Country: CH
+
+Line Items:
+- SKU: PKG-778 | Description: Recycled cartons | Quantity: 50 | Unit Price: -3.00 | Amount: -150.00
+
+Subtotal: -150.00
+Tax: -11.55
+Total: -161.55
