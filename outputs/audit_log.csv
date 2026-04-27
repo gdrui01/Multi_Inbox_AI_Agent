@@ -1,3 +1,0 @@
-timestamp,document_id,source_name,document_type,decision,target_team,reason,overall_confidence,po_number,vendor_name,total_amount
-2026-04-27T11:19:37.966872,INV-INV-AT-2026-001,invoice_at.txt,invoice,auto_route,AP Austria,Matched routing rules and confidence thresholds.,0.91,PO-1001,Alpine Fresh GmbH,420.0
-2026-04-27T11:20:10.453489,INV-INV-AT-2026-099,invoice_review_missing_po.txt,invoice,human_review,AP Austria,"low_overall_confidence, missing_required_fields, po_not_found",0.84,,Alpine Fresh GmbH,120.0

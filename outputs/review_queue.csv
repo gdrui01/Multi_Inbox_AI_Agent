@@ -1,2 +1,0 @@
-created_at,document_id,source_name,document_type,review_reason,status,assigned_team,po_number,vendor_name,total_amount
-2026-04-27T11:20:10.447788+00:00,INV-INV-AT-2026-099,invoice_review_missing_po.txt,invoice,"low_overall_confidence, missing_required_fields, po_not_found",open,AP Austria,,Alpine Fresh GmbH,120.0
