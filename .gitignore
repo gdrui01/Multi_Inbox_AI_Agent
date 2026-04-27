@@ -3,5 +3,5 @@ __pycache__/
 .env
 outputs/uploads/
 docs/
-audit_log.csv
-review_queue.csv
+outputs/audit_log.csv
+outputs/review_queue.csv
